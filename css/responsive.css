@@ -1,0 +1,92 @@
+
+
+@media (max-width: 1200px){
+    
+}
+
+
+
+@media (max-width: 992px){
+
+  .s6ttex h1 {
+    font-family: 'Birthstone', cursive;
+    margin-top: -51px;
+  }
+  .s6img img {
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .s6tex p {
+    margin-top: 12px;
+  }
+   
+
+}
+
+
+@media (max-width:768px){
+  .sec3 {
+    margin: 0px 0;
+  }
+  .s4img p {
+    padding: 0px 100px;
+  }
+  .card {
+    margin-top: -93px;
+  }
+  
+    
+}
+
+@media (max-width:576px){
+  .s3tex a {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .s2icon {
+    margin: 10px auto 10px auto;
+  }
+  .s3img img {
+    margin: auto;
+    display: block;
+  }
+  .card {
+    margin-top: -93px;
+    margin-bottom: 101px;
+  }
+  .left h1 {
+    margin-top: 0px;
+  }
+  .middle-1 h1 {
+    margin-top: 18px;
+  }
+  .middle-2 h1 {
+    margin-top: 23px;
+  }
+  .right h1 {
+    margin-top: 19px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

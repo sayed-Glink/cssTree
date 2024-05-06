@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Roboto+Condensed&family=Teko&display=swap');
+
+
+/* ................font-style........
+    font-family: 'Birthstone', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+ ...................font-style........ */
+    
+
+header{
+    padding: 10px 0;
+    background-color: #cfcccc;
+}
+.logo{}
+.logo a{
+    text-decoration: none;
+}
+.logo a img{
+    width: 40px;
+}
+.main-menu{}
+.main-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.main-menu ul li{}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    text-transform: capitalize;
+    
+}
+/* .............s1........... */
+.sec1{
+    background: url(/images/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s1tex{
+    background: linear-gradient(20 20 20 #009432);
+    z-index: 1;
+}
+.s1tex h1 {
+	color: #fff;
+	font-family: 'Birthstone', cursive;
+	padding-top: 122px;
+}
+.s1tex p{
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px 0;
+}
+.s1tex a {
+	text-decoration: none;
+	color: #009432;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	background-color: #fff;
+	border-radius: 3px;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 100px;
+    box-shadow: 1px 2px 4px black;
+    transition: all .5s;
+}
+.s1tex a:hover{
+    background-color: #009432;
+    color: #fff;
+
+}
+/* ...sec2.... */
+.sec2 {
+	margin: 66px 0;
+}
+.s2icon {
+	background-color: #cfcccc;
+	width: 170px;
+	padding: 16px;
+}
+.s2icon a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.s2icon a i {
+	background-color: #009432;
+	font-size: 59px;
+	border-radius: 50%;
+	padding: 9px;
+}
+.s2icon p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* .............sec3............ */
+.sec3 {
+	margin: 73px 0;
+}
+.s3img{}
+.s3img img{}
+.s3tex {
+	padding: 20px;
+}
+.s3tex h1{
+    font-family: 'Birthstone', cursive;
+}
+.s3tex p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.s3tex a{
+    text-decoration: none;
+	color: #fff;
+	padding: 5px 40px;
+	text-transform: capitalize;
+	background-color: #009432;
+	border-radius: 9px;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 100px;
+    box-shadow: 1px 2px 3px black;
+    transition: all .10s;
+}
+.s3tex a:hover {
+    background-color: #94b49f;
+    color: #000;
+}
+/* .........s4............. */
+.sec4{
+    background: url(/images/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.s4img{
+}
+.s4img p {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #fff;
+	padding: 151px 100px;
+}
+/* .......s5........... */
+.sec5{}
+.s5ttex{}
+.s5ttex h1{
+    font-family: 'Birthstone', cursive;
+}
+.s5ttex p{
+    padding: 0 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card{
+    padding: 5px;
+    border:none;
+    background-color: #f5efef;
+}
+.card img{}
+.card h1{
+    font-family: 'Birthstone', cursive;
+}
+.card p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card a{
+    text-decoration: none;
+	color: #009432;
+	padding: 5px 20px;
+	text-transform: capitalize;
+	border-radius: 3px;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: inline-block;
+}
+/* ............s6...... */
+.sec6{
+    background-color: #fcfcfc;
+}
+.s6ttex h1{
+    font-family: 'Birthstone', cursive;
+}
+.s6img{}
+.s6img img{
+    padding: 20px 0;
+}
+.s6tex{}
+.s6tex p{
+    margin-top: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* ==..............=fotter=========== */
+.footer {
+	background: url(/images/bg4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 55px 0;
+}
+.left{
+    text-align: left;
+}
+.left h1 {
+	margin-top: 95px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Birthstone', cursive;
+}
+.left p{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.social{
+    text-align: left;
+}
+.social a i{
+    padding: 10px  10px;
+    border-radius: 50%;
+    color: #fdf7f7;
+    background-color: #f81e42;
+}
+
+.middle-1{
+    display: ;
+}
+.middle-1{
+    text-align: left;
+}
+.middle-1 h1 {
+	margin-top: 95px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Birthstone', cursive;
+}
+.middle-1 a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.middle-2{
+    text-align: left;
+}
+.middle-2 h1{
+    margin-top: 95px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Birthstone', cursive;
+}
+.middle-2 a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.right{
+    text-align: left;
+}
+.right h1{
+    margin-top: 95px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Birthstone', cursive;
+}
+.right a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
